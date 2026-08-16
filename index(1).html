@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pree | Robotics Projects</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+  font-family:Arial,Helvetica,sans-serif;
+  background:linear-gradient(135deg,#07111f,#101b35,#07111f);
+  color:#fff;line-height:1.6;
+}
+.container{width:min(1050px,92%);margin:auto}
+nav{padding:22px 0;display:flex;justify-content:space-between;align-items:center}
+.logo{font-weight:800;font-size:22px;color:#6ee7ff}
+.insta{color:#fff;text-decoration:none;border:1px solid #31506b;padding:9px 16px;border-radius:22px}
+.hero{text-align:center;padding:70px 0 55px}
+.badge{display:inline-block;padding:7px 13px;border-radius:20px;background:#102d43;color:#6ee7ff;font-size:13px}
+h1{font-size:clamp(38px,7vw,72px);margin:18px 0 10px}
+.gradient{background:linear-gradient(90deg,#6ee7ff,#a78bfa);-webkit-background-clip:text;color:transparent}
+.hero p{max-width:680px;margin:auto;color:#b9c7d9;font-size:17px}
+.button{display:inline-block;margin-top:25px;padding:12px 20px;border-radius:28px;background:#6ee7ff;color:#06101d;text-decoration:none;font-weight:700}
+section{padding:45px 0}
+.title{text-align:center;margin-bottom:25px}
+.title h2{font-size:32px}
+.title p{color:#9fb0c4}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}
+.card{
+  background:rgba(255,255,255,.06);
+  border:1px solid rgba(255,255,255,.1);
+  border-radius:18px;padding:23px;
+  backdrop-filter:blur(8px);
+}
+.card .num{font-size:28px;margin-bottom:8px}
+.card h3{margin-bottom:8px}
+.card p{color:#b8c5d5;font-size:14px}
+.tech{display:flex;flex-wrap:wrap;gap:9px;justify-content:center}
+.tech span{padding:8px 12px;border-radius:18px;background:#11253a;color:#ccefff;border:1px solid #203f59;font-size:13px}
+.profile{text-align:center}
+.profile-box{max-width:650px;margin:auto;padding:30px;border-radius:22px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1)}
+.profile-box a{color:#6ee7ff;text-decoration:none;font-weight:700}
+footer{text-align:center;padding:35px 0;color:#8394a8;font-size:13px;border-top:1px solid rgba(255,255,255,.08)}
+@media(max-width:600px){nav{padding:16px 0}.hero{padding-top:45px}.card{padding:19px}}
+</style>
+</head>
+<body>
+<div class="container">
+<nav>
+  <div class="logo">PREE • ROBOTICS</div>
+  <a class="insta" href="https://www.instagram.com/pree_kannagi/" target="_blank" rel="noopener">@pree_kannagi</a>
+</nav>
+
+<header class="hero">
+  <span class="badge">ROBOTICS • ELECTRONICS • PROJECTS</span>
+  <h1>Building ideas into <span class="gradient">robots.</span></h1>
+  <p>A personal project space for robotics builds, ESP8266/ESP32 experiments, automation and smart robot concepts.</p>
+  <a class="button" href="https://www.instagram.com/pree_kannagi/" target="_blank" rel="noopener">Follow @pree_kannagi</a>
+</header>
+
+<section>
+  <div class="title">
+    <h2>Featured Projects</h2>
+    <p>Current robotics concepts</p>
+  </div>
+  <div class="grid">
+    <div class="card">
+      <div class="num">🤖</div>
+      <h3>Multi-Function Robot</h3>
+      <p>4 BO motors, two-leg body design, castor wheel, head-mounted ESP32-CAM and chest speaker.</p>
+    </div>
+    <div class="card">
+      <div class="num">📷</div>
+      <h3>Wi-Fi Camera Robot</h3>
+      <p>ESP32-CAM with OV2640 camera for wireless video monitoring and robot projects.</p>
+    </div>
+    <div class="card">
+      <div class="num">🎤</div>
+      <h3>Voice Robot</h3>
+      <p>ESP8266 with INMP441 microphone, MAX98357A amplifier and speaker for voice interaction.</p>
+    </div>
+    <div class="card">
+      <div class="num">🪪</div>
+      <h3>RFID Servo Door</h3>
+      <p>RC522 RFID + ESP8266 + servo: valid card triggers a 90° open/close mechanism.</p>
+    </div>
+    <div class="card">
+      <div class="num">⚙️</div>
+      <h3>Dual Servo Control</h3>
+      <p>Second ESP8266 controls two servo motors with up to 180° rotation.</p>
+    </div>
+    <div class="card">
+      <div class="num">🔧</div>
+      <h3>Future Builds</h3>
+      <p>More sensors, automation, robotics and embedded-system experiments coming soon.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="title">
+    <h2>Tech Stack</h2>
+    <p>Hardware used across the projects</p>
+  </div>
+  <div class="tech">
+    <span>ESP8266</span><span>ESP32-CAM</span><span>OV2640</span>
+    <span>BO Motors</span><span>L298N</span><span>INMP441</span>
+    <span>MAX98357A</span><span>RC522 RFID</span><span>Servo Motors</span>
+    <span>Foam Board</span><span>Wi-Fi</span><span>Arduino IDE</span>
+  </div>
+</section>
+
+<section class="profile">
+  <div class="profile-box">
+    <h2>Find the projects on Instagram</h2>
+    <p style="margin:10px 0 18px;color:#b8c5d5">Project updates and builds:</p>
+    <a href="https://www.instagram.com/pree_kannagi/" target="_blank" rel="noopener">@pree_kannagi</a>
+  </div>
+</section>
+
+<footer>
+  © 2026 Pree • Robotics Project Portfolio
+</footer>
+</div>
+</body>
+</html>
